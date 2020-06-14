@@ -81,7 +81,8 @@ function watchTask() {
   watch(
     [files.scssPath, files.jsPath, files.htmlPath, files.phpPath],
     { interval: 1000, usePolling: true }, //Makes docker work
-    series(parallel(scssTask, jsTask), htmlTask, phpTask)
+    // series(parallel(scssTask, jsTask), htmlTask, phpTask)
+    series(parallel(scssTask, jsTask), htmlTask)
   );
 }
 

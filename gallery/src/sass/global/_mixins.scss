@@ -1,0 +1,26 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Mobile media query - viewports smaller than 750px
+@mixin mobile {
+  @media only screen and (max-width: 749px) {
+    @content;
+  } 
+}
+
+// Tablet media query - viewports from 750px to 1030px
+@mixin tablet {
+  @media only screen and (min-width: 650px) and (max-width: 1030px) {
+    @content;
+  }
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
