@@ -16,7 +16,8 @@ h1 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
 }
 
 img {
@@ -105,7 +106,6 @@ img {
 
 // class that shows the Slideshow layout
 .slideshow {
-  // display: block;
   flex-direction: unset;
   flex-wrap: unset;
   justify-content: unset;
@@ -121,10 +121,15 @@ img {
     .prev, .next {
       display: inline-block;
       cursor: pointer;
+      color: #fff;
       background-color: $gray400;
       padding: .5rem;
       margin: 1rem;
       border-radius: 10px;
+
+      &:hover {
+        background-color: $gray700;
+      }
     }
   }
 }
