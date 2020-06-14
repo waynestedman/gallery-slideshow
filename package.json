@@ -1,0 +1,42 @@
+{
+  "name": "gallery-carsousel",
+  "version": "1.0.1",
+  "description": "Simple Gallery Carousel page",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Wayne Stedman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waynestedman/gallery-carsousel.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "autoprefixer": "^9.6.1",
+    "chai": "^4.2.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.0",
+    "gulp-order": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.2",
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "natives": "^1.1.6"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "SASS"
+  ]
+}
