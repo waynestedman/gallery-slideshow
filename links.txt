@@ -1,0 +1,5 @@
+Github: https://github.com/waynestedman/gallery-slideshow
+
+Image Gallery/Slideshow CodePen: https://codepen.io/waynes/pen/MWKeLWy
+
+Node script CodePen: https://codepen.io/waynes/pen/YzwWBNR
